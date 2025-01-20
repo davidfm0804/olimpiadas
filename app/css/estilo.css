@@ -1,0 +1,45 @@
+/* estilo.css */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select, input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    display: inline;
+}
+button{
+  text-decoration: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
